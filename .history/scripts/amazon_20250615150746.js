@@ -79,13 +79,9 @@ let matchingItem;
       });
       }
 
-        let cartQuantity =0;
+      cart.forEach(())
 
-      cart.forEach((item) => {
-                      cartQuantity +=item.quantity;
-      });
-
-          document.querySelector('.js-cart-quantity')
-          .innerHTML = cartQuantity;
+      
+      console.log(cart);
     });
 });

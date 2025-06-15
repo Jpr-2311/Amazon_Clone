@@ -86,6 +86,9 @@ let matchingItem;
       });
 
           document.querySelector('.js-cart-quantity')
-          .innerHTML = cartQuantity;
+          .inn
+
+      console.log(cartQuantity);
+      console.log(cart);
     });
 });

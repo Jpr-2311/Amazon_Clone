@@ -82,10 +82,10 @@ let matchingItem;
         let cartQuantity =0;
 
       cart.forEach((item) => {
-                      cartQuantity +=item.quantity;
+                      cartQuantity +=item.q
       });
 
-          document.querySelector('.js-cart-quantity')
-          .innerHTML = cartQuantity;
+      
+      console.log(cart);
     });
 });
