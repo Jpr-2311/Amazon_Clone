@@ -59,12 +59,12 @@ document.querySelector('.js-products-grid').innerHTML =productsHTML;
 document.querySelectorAll('.js-add-to-cart')
 .forEach((button)=>{
     button.addEventListener('click',() => {
-      const productId=button.dataset.productId;
+      const productName=button.dataset.productId;
     
 let matchingItem;
 
       cart.forEach((item)=>{
-             if(productId === item.productId){
+             if(productName === item.productName){
                         matchingItem =item;
              }
       });
@@ -74,7 +74,7 @@ let matchingItem;
       }
       else{
               cart.push({
-        productId:productId,
+        productName:productName,
         quantity:1
       });
       }

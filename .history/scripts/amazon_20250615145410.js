@@ -64,7 +64,7 @@ document.querySelectorAll('.js-add-to-cart')
 let matchingItem;
 
       cart.forEach((item)=>{
-             if(productId === item.productId){
+             if(productId === item.productName){
                         matchingItem =item;
              }
       });
@@ -74,7 +74,7 @@ let matchingItem;
       }
       else{
               cart.push({
-        productId:productId,
+        productName:productName,
         quantity:1
       });
       }

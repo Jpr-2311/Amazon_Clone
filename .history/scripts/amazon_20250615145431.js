@@ -74,7 +74,7 @@ let matchingItem;
       }
       else{
               cart.push({
-        productId:productId,
+        productId:productName,
         quantity:1
       });
       }
