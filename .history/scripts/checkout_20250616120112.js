@@ -80,7 +80,7 @@ cart.forEach((cartItem)=>{
             <div class="delivery-option">
               <input type="radio"
                 class="delivery-option-input"
-                name="delivery-option-${matchingProduct.id}">
+                name="delivery-option-">
               <div>
                 <div class="delivery-option-date">
                   Monday, June 13
