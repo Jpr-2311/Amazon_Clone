@@ -1,6 +1,6 @@
-import {cart,addToCart} from '../data/cart.js';
+import {cart} from '../data/cart.js';
 import { products} from '../data/products.js';
-
+import
  
 let productsHTML='';
 
@@ -59,6 +59,7 @@ products.forEach((product) => {
 });
 
 document.querySelector('.js-products-grid').innerHTML = productsHTML;
+
 
 function  updateCartQuantity(){
   let cartQuantity =0;
