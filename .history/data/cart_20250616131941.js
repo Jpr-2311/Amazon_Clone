@@ -8,7 +8,6 @@ if(!cart){
         quantity:1
       }];
 }
-
 function saveToStorage(){
   localStorage.setItem('cart',JSON.stringify(cart));
 }
