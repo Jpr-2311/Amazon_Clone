@@ -85,8 +85,8 @@ export function renderPaymentSummary() {
    const order = await response.json();
    addOrder(order); 
       }catch(error){
-            console.log('Unexpected error.Try again later.');
+            console.log
       }
-     window.location.href='orders.html';
+     
     });
   }
