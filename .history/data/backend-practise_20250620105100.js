@@ -1,0 +1,1 @@
+const xhnr=ew XMLHttpRequest();
