@@ -5,6 +5,5 @@ import { loadProducts } from '../data/products.js';
 //import '../data/backend-practise.js';
 
 loadProducts(()=>{
-    renderOrderSummary();
-    renderPaymentSummary();
+
 });

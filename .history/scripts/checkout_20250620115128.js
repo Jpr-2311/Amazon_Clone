@@ -6,5 +6,5 @@ import { loadProducts } from '../data/products.js';
 
 loadProducts(()=>{
     renderOrderSummary();
-    renderPaymentSummary();
+renderPaymentSummary();
 });
