@@ -17,8 +17,7 @@ new Promise((resolve)=>{
     });
   })
 
-]).then((values)=>{
-  console.log(values);
+]).then(()=>{
     renderOrderSummary();
     renderPaymentSummary();
 });
@@ -42,7 +41,7 @@ new Promise((resolve)=>{
     renderOrderSummary();
     renderPaymentSummary();
 });
-*/
+
 /*
 loadProducts(()=>{
     loadCart(()=>{

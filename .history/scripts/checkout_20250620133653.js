@@ -14,16 +14,9 @@ Promise.all([
 new Promise((resolve)=>{
     loadCart(()=>{
       resolve();
-    });
-  })
+    })
+]);
 
-]).then((values)=>{
-  console.log(values);
-    renderOrderSummary();
-    renderPaymentSummary();
-});
-
-/*
 new Promise((resolve)=>{
   loadProducts(()=>{ 
     resolve('value1');
@@ -32,17 +25,17 @@ new Promise((resolve)=>{
 }).then((value)=>{
    console.log(value);
    
-  return new Promise((resolve)=>{
+  returew Promise((resolve)=>{
     loadCart(()=>{
       resolve();
     });
-  });
+  })n n;
 
 }).then(()=>{
     renderOrderSummary();
     renderPaymentSummary();
 });
-*/
+
 /*
 loadProducts(()=>{
     loadCart(()=>{

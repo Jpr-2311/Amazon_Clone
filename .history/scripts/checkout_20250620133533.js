@@ -11,19 +11,9 @@ Promise.all([
     resolve('value1');
   });
 }),
-new Promise((resolve)=>{
-    loadCart(()=>{
-      resolve();
-    });
-  })
 
-]).then((values)=>{
-  console.log(values);
-    renderOrderSummary();
-    renderPaymentSummary();
-});
+]);
 
-/*
 new Promise((resolve)=>{
   loadProducts(()=>{ 
     resolve('value1');
@@ -42,7 +32,7 @@ new Promise((resolve)=>{
     renderOrderSummary();
     renderPaymentSummary();
 });
-*/
+
 /*
 loadProducts(()=>{
     loadCart(()=>{

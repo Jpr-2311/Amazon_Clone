@@ -17,8 +17,7 @@ new Promise((resolve)=>{
     });
   })
 
-]).then((values)=>{
-  console.log(values);
+]).then((value)=>{
     renderOrderSummary();
     renderPaymentSummary();
 });

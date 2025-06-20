@@ -17,13 +17,10 @@ new Promise((resolve)=>{
     });
   })
 
-]).then((values)=>{
-  console.log(values);
-    renderOrderSummary();
-    renderPaymentSummary();
+]).then(()=>{
+  
 });
 
-/*
 new Promise((resolve)=>{
   loadProducts(()=>{ 
     resolve('value1');
@@ -42,7 +39,7 @@ new Promise((resolve)=>{
     renderOrderSummary();
     renderPaymentSummary();
 });
-*/
+
 /*
 loadProducts(()=>{
     loadCart(()=>{
