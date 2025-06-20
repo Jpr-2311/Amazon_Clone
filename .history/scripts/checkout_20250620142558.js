@@ -8,17 +8,17 @@ import { loadCart } from '../data/cart.js';
 async function loadPage(){
 await loadProductsFetch();
 
-const value = await new Promise((resolve)=>{
+await new Promise((resolve)=>{
     loadCart(()=>{
-      resolve('value3');
+      resolve();
     });
   });
 
     renderOrderSummary();
     renderPaymentSummary();
 }
-loadPage();
-
+loadPage()
+});
 
 /*
 

@@ -10,7 +10,7 @@ await loadProductsFetch();
 
 const value = await new Promise((resolve)=>{
     loadCart(()=>{
-      resolve('value3');
+      resolve();
     });
   });
 
