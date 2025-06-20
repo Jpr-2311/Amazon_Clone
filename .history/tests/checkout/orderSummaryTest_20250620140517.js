@@ -8,8 +8,12 @@ describe('test suite: renderOrderSummary', () => {
 
   beforeAll((done)=>{
     loadProductsFetch().then(()=>{
+      done()
+    })
+    (()=>{
       done();
     });
+    
   });
 
   beforeEach(() => {

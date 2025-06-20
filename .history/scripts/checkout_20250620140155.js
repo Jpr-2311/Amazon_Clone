@@ -6,7 +6,11 @@ import { loadCart } from '../data/cart.js';
 //import '../data/backend-practise.js';
 
 Promise.all([
- loadProductsFetch(),
+  new Promise((resolve)=>{
+  loadProducts(()=>{ 
+    resolve('value1');
+  });
+}),
 new Promise((resolve)=>{
     loadCart(()=>{
       resolve();
