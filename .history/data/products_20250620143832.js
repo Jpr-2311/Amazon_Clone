@@ -105,13 +105,9 @@ export function loadProductsFetch(){
 });
 
 console.log('load products');
-  }).catch((error)=>{
-     console.log('Unexpected error, Please try again later.');
   });
-
   return promise;
 }
-
 /*
 loadProductsFetch().then(()=>{
   console.log('next step')
@@ -132,7 +128,7 @@ console.log('load products');
 
 fun();
    });
-      xhr.addEventListener('error',(error)=>{
+      xhr.addEventListener('error',()={
          console.log('Unexpected error, Please try again later.');
       });
 

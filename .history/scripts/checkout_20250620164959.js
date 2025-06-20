@@ -10,10 +10,9 @@ async function loadPage(){
         // throw 'error1';
 
       await loadProductsFetch();
-      const value = await new Promise((resolve,reject)=>{
-      //  throw 'error2';
+      const value = await new Promise((resolve)=>{
+        throw
       loadCart(()=>{
-       // reject('error3')
       resolve('value3');
     });
   });
